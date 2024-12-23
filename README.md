@@ -77,7 +77,22 @@ This project is a full-featured e-commerce platform designed to provide a seamle
 ## 📄 How to Run
 1. Clone the repository.
 2. Install dependencies using `npm install`.
-3. Set up environment variables for MongoDB, Redis, and Stripe.
+3. Create a `.env` file in the root directory and add the following environment variables:
+
+   ```env
+   PORT=5000
+   MONGO_URI=<Your MongoDB Connection String>
+   UPSTASH_REDIS_URL=<Your Redis URL>
+   ACCESS_TOKEN_SECRET=<Your Access Token Secret>
+   REFRESH_TOKEN_SECRET=<Your Refresh Token Secret>
+   CLOUDINARY_CLOUD_NAME=<Your Cloudinary Cloud Name>
+   CLOUDINARY_API_KEY=<Your Cloudinary API Key>
+   CLOUDINARY_API_SECRET=<Your Cloudinary API Secret>
+   STRIPE_SECRET_KEY=<Your Stripe Secret Key>
+   CLIENT_URL=http://localhost:5173
+   NODE_ENV=development
+   ```
+
 4. Run the backend server: `npm start`.
 5. Access the application in your browser at `http://localhost:3000`.
 
