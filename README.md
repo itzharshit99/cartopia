@@ -3,6 +3,10 @@
 ## 🚀 Project Setup
 This project is a full-featured e-commerce platform designed to provide a seamless shopping experience for users while enabling administrators to efficiently manage products, sales, and analytics.
 
+## 🌐 Live Demo
+The live version of the application is available at:
+[Cartopia Live](https://cartopia-iaq6.onrender.com/)
+
 ## Features
 
 ### 🗄️ MongoDB & Redis Integration
